@@ -1,5 +1,5 @@
 {
-  "run_time": "2026-03-20 05:38 UTC",
+  "run_time": "2026-03-20 06:56 UTC",
   "lookback_hours": 24,
   "topics": [
     "Injunction",
@@ -31,1123 +31,1216 @@
       "note": "top 15 results only \u2014 no date filter available"
     }
   },
-  "total_urls_collected": 158,
+  "total_urls_collected": 165,
   "urls": [
     {
       "url": "https://x.com/Mr8113439708/status/2034716017885397010",
       "platform": "X",
       "topic_label": "Injunction",
       "search_term": "Luka Doncic injunction",
-      "collected_at": "2026-03-20T05:38:13.877733"
+      "collected_at": "2026-03-20T06:56:12.505162"
     },
     {
       "url": "https://x.com/Mr8113439708/status/2034716017885397010/photo/1",
       "platform": "X",
       "topic_label": "Injunction",
       "search_term": "Luka Doncic injunction",
-      "collected_at": "2026-03-20T05:38:13.879600"
+      "collected_at": "2026-03-20T06:56:12.506672"
     },
     {
       "url": "https://x.com/Mr8113439708/status/2034716017885397010/analytics",
       "platform": "X",
       "topic_label": "Injunction",
       "search_term": "Luka Doncic injunction",
-      "collected_at": "2026-03-20T05:38:13.880909"
+      "collected_at": "2026-03-20T06:56:12.509724"
     },
     {
       "url": "https://x.com/bballunlocked/status/2034673319388107196",
       "platform": "X",
       "topic_label": "Injunction",
       "search_term": "Luka Doncic injunction",
-      "collected_at": "2026-03-20T05:38:13.882149"
+      "collected_at": "2026-03-20T06:56:12.516011"
     },
     {
       "url": "https://x.com/bballunlocked/status/2034673319388107196/photo/1",
       "platform": "X",
       "topic_label": "Injunction",
       "search_term": "Luka Doncic injunction",
-      "collected_at": "2026-03-20T05:38:13.883421"
+      "collected_at": "2026-03-20T06:56:12.518524"
     },
     {
       "url": "https://x.com/bballunlocked/status/2034673319388107196/analytics",
       "platform": "X",
       "topic_label": "Injunction",
       "search_term": "Luka Doncic injunction",
-      "collected_at": "2026-03-20T05:38:13.884675"
+      "collected_at": "2026-03-20T06:56:12.520598"
     },
     {
       "url": "https://x.com/Fullcourtpass/status/2034664493817409799",
       "platform": "X",
       "topic_label": "Injunction",
       "search_term": "Luka Doncic injunction",
-      "collected_at": "2026-03-20T05:38:13.885870"
+      "collected_at": "2026-03-20T06:56:12.522133"
     },
     {
       "url": "https://x.com/Fullcourtpass/status/2034664493817409799/photo/1",
       "platform": "X",
       "topic_label": "Injunction",
       "search_term": "Luka Doncic injunction",
-      "collected_at": "2026-03-20T05:38:13.887872"
+      "collected_at": "2026-03-20T06:56:12.523523"
     },
     {
       "url": "https://x.com/Fullcourtpass/status/2034664493817409799/analytics",
       "platform": "X",
       "topic_label": "Injunction",
       "search_term": "Luka Doncic injunction",
-      "collected_at": "2026-03-20T05:38:13.889196"
+      "collected_at": "2026-03-20T06:56:12.524952"
     },
     {
       "url": "https://x.com/TheNBABase/status/2034663544244027616",
       "platform": "X",
       "topic_label": "Injunction",
       "search_term": "Luka Doncic injunction",
-      "collected_at": "2026-03-20T05:38:13.890360"
+      "collected_at": "2026-03-20T06:56:12.529944"
     },
     {
       "url": "https://x.com/TheNBABase/status/2034663544244027616/photo/1",
       "platform": "X",
       "topic_label": "Injunction",
       "search_term": "Luka Doncic injunction",
-      "collected_at": "2026-03-20T05:38:13.891427"
+      "collected_at": "2026-03-20T06:56:12.534093"
     },
     {
       "url": "https://x.com/TheNBABase/status/2034663544244027616/analytics",
       "platform": "X",
       "topic_label": "Injunction",
       "search_term": "Luka Doncic injunction",
-      "collected_at": "2026-03-20T05:38:13.892480"
+      "collected_at": "2026-03-20T06:56:12.537114"
     },
     {
       "url": "https://x.com/grok/status/2034768259593953677",
       "platform": "X",
       "topic_label": "Injunction",
       "search_term": "Luka injunction",
-      "collected_at": "2026-03-20T05:38:27.188892"
+      "collected_at": "2026-03-20T06:56:25.704196"
     },
     {
       "url": "https://x.com/grok/status/2034768259593953677/analytics",
       "platform": "X",
       "topic_label": "Injunction",
       "search_term": "Luka injunction",
-      "collected_at": "2026-03-20T05:38:27.197277"
+      "collected_at": "2026-03-20T06:56:25.705898"
     },
     {
       "url": "https://x.com/LarrryOmooba/status/2034675278719365505",
       "platform": "X",
       "topic_label": "Injunction",
       "search_term": "Luka injunction",
-      "collected_at": "2026-03-20T05:38:27.223670"
+      "collected_at": "2026-03-20T06:56:25.711719"
     },
     {
       "url": "https://x.com/LarrryOmooba/status/2034675278719365505/analytics",
       "platform": "X",
       "topic_label": "Injunction",
       "search_term": "Luka injunction",
-      "collected_at": "2026-03-20T05:38:27.226339"
+      "collected_at": "2026-03-20T06:56:25.713002"
+    },
+    {
+      "url": "https://www.reddit.com/r/lakers/comments/1ryp76x/lakers_head_coach_jj_redick_on_why_luka_doncic_is",
+      "platform": "Reddit",
+      "topic_label": "Injunction",
+      "search_term": "Luka Doncic injunction",
+      "collected_at": "2026-03-20T06:56:37.230222"
+    },
+    {
+      "url": "https://www.reddit.com/r/nba/comments/1ryma66/lakers_head_coach_jj_redick_on_why_luka_doncic_is",
+      "platform": "Reddit",
+      "topic_label": "Injunction",
+      "search_term": "Luka Doncic injunction",
+      "collected_at": "2026-03-20T06:56:37.231651"
+    },
+    {
+      "url": "https://www.reddit.com/r/NBA_Draft/comments/1ryp2vz/slovenian_nba_prospect_stefan_joksimovic_nextgen",
+      "platform": "Reddit",
+      "topic_label": "Injunction",
+      "search_term": "Luka Doncic injunction",
+      "collected_at": "2026-03-20T06:56:37.235463"
+    },
+    {
+      "url": "https://www.reddit.com/r/NBAenEspanol/comments/1ryogjm/luka_mete_60_en_miami_en_b2b_y_lakers_se_impone_a",
+      "platform": "Reddit",
+      "topic_label": "Injunction",
+      "search_term": "Luka Doncic injunction",
+      "collected_at": "2026-03-20T06:56:37.240932"
+    },
+    {
+      "url": "https://www.reddit.com/r/tennis/comments/1ryoebc/carlos_alcaraz_and_luka_doncic_after_miami_heat",
+      "platform": "Reddit",
+      "topic_label": "Injunction",
+      "search_term": "Luka Doncic injunction",
+      "collected_at": "2026-03-20T06:56:37.243067"
+    },
+    {
+      "url": "https://www.reddit.com/r/NBATalk/comments/1ryobjb/luka_doncic_is_the_only_slovenian_nba_player",
+      "platform": "Reddit",
+      "topic_label": "Injunction",
+      "search_term": "Luka Doncic injunction",
+      "collected_at": "2026-03-20T06:56:37.246065"
+    },
+    {
+      "url": "https://www.reddit.com/r/nba/comments/1ryo37v/trivia_luka_doncic_is_the_only_nba_player_right",
+      "platform": "Reddit",
+      "topic_label": "Injunction",
+      "search_term": "Luka Doncic injunction",
+      "collected_at": "2026-03-20T06:56:37.248864"
+    },
+    {
+      "url": "https://www.reddit.com/r/lakersv2/comments/1rynf37/luka_doncic_was_slow_to_get_up_but_remained_in",
+      "platform": "Reddit",
+      "topic_label": "Injunction",
+      "search_term": "Luka Doncic injunction",
+      "collected_at": "2026-03-20T06:56:37.250735"
     },
     {
       "url": "https://www.reddit.com/r/Fauxmoi/comments/1rqe3rn/lakers_luka_doncic_in_custody_battle_for",
       "platform": "Reddit",
       "topic_label": "Injunction",
       "search_term": "Luka Doncic injunction",
-      "collected_at": "2026-03-20T05:38:41.526535"
+      "collected_at": "2026-03-20T06:56:40.616785"
     },
     {
       "url": "https://www.reddit.com/r/Fauxmoi/comments/1rq85p5/luka_doncics_partner_anamaria_goltes_files",
       "platform": "Reddit",
       "topic_label": "Injunction",
       "search_term": "Luka Doncic injunction",
-      "collected_at": "2026-03-20T05:38:41.530885"
+      "collected_at": "2026-03-20T06:56:40.619483"
     },
     {
       "url": "https://www.reddit.com/r/Fauxmoi/comments/1inaeu5/luka_doncic_posts_video_about_his_move_to_the",
       "platform": "Reddit",
       "topic_label": "Injunction",
       "search_term": "Luka Doncic injunction",
-      "collected_at": "2026-03-20T05:38:41.534467"
+      "collected_at": "2026-03-20T06:56:40.621960"
     },
     {
       "url": "https://www.reddit.com/r/lakersv2/comments/1rya3ek/luka_doncic_has_filed_an_injunction_to_see_his",
       "platform": "Reddit",
       "topic_label": "Injunction",
       "search_term": "Luka injunction",
-      "collected_at": "2026-03-20T05:38:51.599193"
+      "collected_at": "2026-03-20T06:56:50.815328"
     },
     {
       "url": "https://www.reddit.com/r/lakersv2/comments/1ry6889/things_are_getting_ugly_between_luka_and_his_baby",
       "platform": "Reddit",
       "topic_label": "Injunction",
       "search_term": "Luka injunction",
-      "collected_at": "2026-03-20T05:38:51.603809"
+      "collected_at": "2026-03-20T06:56:50.819721"
     },
     {
       "url": "https://www.reddit.com/user/mogirl09/comments/1plij4m/gave_them_time_to_figure_it_out_they_declined_my",
       "platform": "Reddit",
       "topic_label": "Injunction",
       "search_term": "Luka injunction",
-      "collected_at": "2026-03-20T05:38:51.607644"
+      "collected_at": "2026-03-20T06:56:50.823719"
     },
     {
       "url": "https://www.reddit.com/r/replika/comments/10yyw1p/dont_let_the_bastards_win",
       "platform": "Reddit",
       "topic_label": "Injunction",
       "search_term": "Luka injunction",
-      "collected_at": "2026-03-20T05:38:51.609977"
+      "collected_at": "2026-03-20T06:56:50.826010"
     },
     {
       "url": "https://www.reddit.com/r/TruthLeaks/comments/6xk6bk/transcript_of_george_webb_video_series_part_142",
       "platform": "Reddit",
       "topic_label": "Injunction",
       "search_term": "Luka injunction",
-      "collected_at": "2026-03-20T05:38:51.612351"
+      "collected_at": "2026-03-20T06:56:50.828205"
     },
     {
       "url": "https://www.reddit.com/r/EmulationOnAndroid/comments/3ygdn3/remulationonandroid_report_thursday_january_01",
       "platform": "Reddit",
       "topic_label": "Injunction",
       "search_term": "Luka injunction",
-      "collected_at": "2026-03-20T05:38:51.614425"
+      "collected_at": "2026-03-20T06:56:50.830481"
     },
     {
       "url": "https://www.reddit.com/r/autotldr/comments/31bzjy/journalists_arrested_while_covering_ferguson",
       "platform": "Reddit",
       "topic_label": "Injunction",
       "search_term": "Luka injunction",
-      "collected_at": "2026-03-20T05:38:51.616507"
+      "collected_at": "2026-03-20T06:56:50.832611"
     },
     {
       "url": "https://www.tiktok.com/@nba/video/7619164598700231967",
       "platform": "TikTok",
       "topic_label": "Injunction",
       "search_term": "lukadoncic",
-      "collected_at": "2026-03-20T05:39:26.876827"
+      "collected_at": "2026-03-20T06:57:26.814620"
     },
     {
       "url": "https://www.tiktok.com/@bleacherreport/video/7619170246678629662",
       "platform": "TikTok",
       "topic_label": "Injunction",
       "search_term": "lukadoncic",
-      "collected_at": "2026-03-20T05:39:26.882843"
-    },
-    {
-      "url": "https://www.tiktok.com/@sportsnet/video/7619184235294903572",
-      "platform": "TikTok",
-      "topic_label": "Injunction",
-      "search_term": "lukadoncic",
-      "collected_at": "2026-03-20T05:39:26.893213"
-    },
-    {
-      "url": "https://www.tiktok.com/@nba/video/7619192648343096606",
-      "platform": "TikTok",
-      "topic_label": "Injunction",
-      "search_term": "lukadoncic",
-      "collected_at": "2026-03-20T05:39:26.898606"
-    },
-    {
-      "url": "https://www.tiktok.com/@yahoosports/video/7619183065243438349",
-      "platform": "TikTok",
-      "topic_label": "Injunction",
-      "search_term": "lukadoncic",
-      "collected_at": "2026-03-20T05:39:26.903494"
+      "collected_at": "2026-03-20T06:57:26.827725"
     },
     {
       "url": "https://www.tiktok.com/@nba/video/7619175718852857119",
       "platform": "TikTok",
       "topic_label": "Injunction",
       "search_term": "lukadoncic",
-      "collected_at": "2026-03-20T05:39:26.909933"
+      "collected_at": "2026-03-20T06:57:26.834072"
     },
     {
-      "url": "https://www.tiktok.com/@losplugd/video/7619204913519676702",
+      "url": "https://www.tiktok.com/@nba/video/7619192648343096606",
       "platform": "TikTok",
       "topic_label": "Injunction",
       "search_term": "lukadoncic",
-      "collected_at": "2026-03-20T05:39:26.914206"
-    },
-    {
-      "url": "https://www.tiktok.com/@overtime/video/7619175461687463182",
-      "platform": "TikTok",
-      "topic_label": "Injunction",
-      "search_term": "lukadoncic",
-      "collected_at": "2026-03-20T05:39:26.916631"
-    },
-    {
-      "url": "https://www.tiktok.com/@nba/video/7619177991372819743",
-      "platform": "TikTok",
-      "topic_label": "Injunction",
-      "search_term": "lukadoncic",
-      "collected_at": "2026-03-20T05:39:26.919978"
-    },
-    {
-      "url": "https://www.tiktok.com/@yahoosports/video/7619196929276169485",
-      "platform": "TikTok",
-      "topic_label": "Injunction",
-      "search_term": "lukadoncic",
-      "collected_at": "2026-03-20T05:39:26.923032"
-    },
-    {
-      "url": "https://www.tiktok.com/@justh00ps/video/7619174008419814670",
-      "platform": "TikTok",
-      "topic_label": "Injunction",
-      "search_term": "lukadoncic",
-      "collected_at": "2026-03-20T05:39:26.926406"
-    },
-    {
-      "url": "https://www.tiktok.com/@nba/video/7618815207359450398",
-      "platform": "TikTok",
-      "topic_label": "Injunction",
-      "search_term": "lukadoncic",
-      "collected_at": "2026-03-20T05:39:26.932919"
+      "collected_at": "2026-03-20T06:57:26.841582"
     },
     {
       "url": "https://www.tiktok.com/@houseofhighlights/video/7619160944043740430",
       "platform": "TikTok",
       "topic_label": "Injunction",
       "search_term": "lukadoncic",
-      "collected_at": "2026-03-20T05:39:26.938454"
+      "collected_at": "2026-03-20T06:57:26.847589"
+    },
+    {
+      "url": "https://www.tiktok.com/@sportsnet/video/7619184235294903572",
+      "platform": "TikTok",
+      "topic_label": "Injunction",
+      "search_term": "lukadoncic",
+      "collected_at": "2026-03-20T06:57:26.853530"
+    },
+    {
+      "url": "https://www.tiktok.com/@justh00ps/video/7619174008419814670",
+      "platform": "TikTok",
+      "topic_label": "Injunction",
+      "search_term": "lukadoncic",
+      "collected_at": "2026-03-20T06:57:26.860193"
+    },
+    {
+      "url": "https://www.tiktok.com/@nba/video/7619177991372819743",
+      "platform": "TikTok",
+      "topic_label": "Injunction",
+      "search_term": "lukadoncic",
+      "collected_at": "2026-03-20T06:57:26.862983"
+    },
+    {
+      "url": "https://www.tiktok.com/@yahoosports/video/7619183065243438349",
+      "platform": "TikTok",
+      "topic_label": "Injunction",
+      "search_term": "lukadoncic",
+      "collected_at": "2026-03-20T06:57:26.867245"
     },
     {
       "url": "https://www.tiktok.com/@espn/video/7619164080061926669",
       "platform": "TikTok",
       "topic_label": "Injunction",
       "search_term": "lukadoncic",
-      "collected_at": "2026-03-20T05:39:26.940977"
+      "collected_at": "2026-03-20T06:57:26.872492"
     },
     {
-      "url": "https://www.tiktok.com/@bleacherreport/video/7619174910178463006",
+      "url": "https://www.tiktok.com/@overtime/video/7619175461687463182",
       "platform": "TikTok",
       "topic_label": "Injunction",
       "search_term": "lukadoncic",
-      "collected_at": "2026-03-20T05:39:26.943760"
+      "collected_at": "2026-03-20T06:57:26.876084"
+    },
+    {
+      "url": "https://www.tiktok.com/@brandonsdeutsch/video/7619163121214672142",
+      "platform": "TikTok",
+      "topic_label": "Injunction",
+      "search_term": "lukadoncic",
+      "collected_at": "2026-03-20T06:57:26.880045"
+    },
+    {
+      "url": "https://www.tiktok.com/@hoop_planet/video/7619178614482832653",
+      "platform": "TikTok",
+      "topic_label": "Injunction",
+      "search_term": "lukadoncic",
+      "collected_at": "2026-03-20T06:57:26.882524"
+    },
+    {
+      "url": "https://www.tiktok.com/@enjoybball/video/7619161778215308575",
+      "platform": "TikTok",
+      "topic_label": "Injunction",
+      "search_term": "lukadoncic",
+      "collected_at": "2026-03-20T06:57:26.883897"
+    },
+    {
+      "url": "https://www.tiktok.com/@losplugd/video/7619204913519676702",
+      "platform": "TikTok",
+      "topic_label": "Injunction",
+      "search_term": "lukadoncic",
+      "collected_at": "2026-03-20T06:57:26.885000"
+    },
+    {
+      "url": "https://x.com/leo16_21/status/2034869629907345810",
+      "platform": "X",
+      "topic_label": "Luka Mother",
+      "search_term": "Luka Doncic mother",
+      "collected_at": "2026-03-20T06:57:47.350124"
+    },
+    {
+      "url": "https://x.com/leo16_21/status/2034869629907345810/analytics",
+      "platform": "X",
+      "topic_label": "Luka Mother",
+      "search_term": "Luka Doncic mother",
+      "collected_at": "2026-03-20T06:57:47.354817"
     },
     {
       "url": "https://x.com/leo16_21/status/2034697337071866235",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka Doncic mother",
-      "collected_at": "2026-03-20T05:39:47.428523"
+      "collected_at": "2026-03-20T06:57:47.358344"
     },
     {
       "url": "https://x.com/leo16_21/status/2034697337071866235/analytics",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka Doncic mother",
-      "collected_at": "2026-03-20T05:39:47.441289"
+      "collected_at": "2026-03-20T06:57:47.366926"
     },
     {
       "url": "https://x.com/ZebraZooo/status/2034496785184424437",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka Doncic mother",
-      "collected_at": "2026-03-20T05:39:47.442456"
+      "collected_at": "2026-03-20T06:57:47.371796"
     },
     {
       "url": "https://x.com/ZebraZooo/status/2034496785184424437/analytics",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka Doncic mother",
-      "collected_at": "2026-03-20T05:39:47.443469"
+      "collected_at": "2026-03-20T06:57:47.374089"
     },
     {
       "url": "https://x.com/372414C/status/2034484039017718136",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka Doncic mother",
-      "collected_at": "2026-03-20T05:39:47.444426"
+      "collected_at": "2026-03-20T06:57:47.376039"
     },
     {
       "url": "https://x.com/372414C/status/2034484039017718136/analytics",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka Doncic mother",
-      "collected_at": "2026-03-20T05:39:47.445385"
+      "collected_at": "2026-03-20T06:57:47.378241"
     },
     {
       "url": "https://x.com/RadellLewis/status/2034480747248029793",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka Doncic mother",
-      "collected_at": "2026-03-20T05:39:47.446315"
+      "collected_at": "2026-03-20T06:57:47.379453"
     },
     {
       "url": "https://x.com/RadellLewis/status/2034480747248029793/analytics",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka Doncic mother",
-      "collected_at": "2026-03-20T05:39:47.447252"
+      "collected_at": "2026-03-20T06:57:47.380415"
     },
     {
       "url": "https://x.com/maiircos/status/2034480692248347073",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka Doncic mother",
-      "collected_at": "2026-03-20T05:39:47.448189"
+      "collected_at": "2026-03-20T06:57:47.381367"
     },
     {
       "url": "https://x.com/maiircos/status/2034480692248347073/analytics",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka Doncic mother",
-      "collected_at": "2026-03-20T05:39:47.449105"
+      "collected_at": "2026-03-20T06:57:47.382447"
     },
     {
       "url": "https://x.com/njeans_0620/status/2034480658068963615",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka Doncic mother",
-      "collected_at": "2026-03-20T05:39:47.450075"
+      "collected_at": "2026-03-20T06:57:47.384224"
     },
     {
       "url": "https://x.com/njeans_0620/status/2034480658068963615/analytics",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka Doncic mother",
-      "collected_at": "2026-03-20T05:39:47.450914"
+      "collected_at": "2026-03-20T06:57:47.390677"
     },
     {
       "url": "https://x.com/tangybs/status/2034480520394911979",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka Doncic mother",
-      "collected_at": "2026-03-20T05:39:47.451787"
+      "collected_at": "2026-03-20T06:57:47.392247"
     },
     {
       "url": "https://x.com/tangybs/status/2034480520394911979/analytics",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka Doncic mother",
-      "collected_at": "2026-03-20T05:39:47.452612"
+      "collected_at": "2026-03-20T06:57:47.393293"
     },
     {
       "url": "https://x.com/Princ3ss_mama/status/2034480354275237911",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka Doncic mother",
-      "collected_at": "2026-03-20T05:39:47.453410"
+      "collected_at": "2026-03-20T06:57:47.394267"
     },
     {
       "url": "https://x.com/Princ3ss_mama/status/2034480354275237911/analytics",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka Doncic mother",
-      "collected_at": "2026-03-20T05:39:47.454224"
+      "collected_at": "2026-03-20T06:57:47.395318"
     },
     {
       "url": "https://x.com/Remmbornn/status/2034480343839826265",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka Doncic mother",
-      "collected_at": "2026-03-20T05:39:47.455029"
+      "collected_at": "2026-03-20T06:57:47.396458"
     },
     {
       "url": "https://x.com/Remmbornn/status/2034480343839826265/analytics",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka Doncic mother",
-      "collected_at": "2026-03-20T05:39:47.455823"
+      "collected_at": "2026-03-20T06:57:47.398096"
     },
     {
       "url": "https://x.com/_Vyrizz/status/2034480264093499452",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka Doncic mother",
-      "collected_at": "2026-03-20T05:39:47.456706"
+      "collected_at": "2026-03-20T06:57:47.399427"
     },
     {
       "url": "https://x.com/_Vyrizz/status/2034480264093499452/analytics",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka Doncic mother",
-      "collected_at": "2026-03-20T05:39:47.457705"
+      "collected_at": "2026-03-20T06:57:47.410808"
     },
     {
       "url": "https://x.com/FeelLikeSpade/status/2034480232078402007",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka Doncic mother",
-      "collected_at": "2026-03-20T05:39:47.458666"
+      "collected_at": "2026-03-20T06:57:47.411822"
     },
     {
       "url": "https://x.com/FeelLikeSpade/status/2034480232078402007/analytics",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka Doncic mother",
-      "collected_at": "2026-03-20T05:39:47.459570"
+      "collected_at": "2026-03-20T06:57:47.412719"
     },
     {
       "url": "https://x.com/F_rederic_k/status/2034478776424300863",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka Doncic mother",
-      "collected_at": "2026-03-20T05:39:47.460474"
+      "collected_at": "2026-03-20T06:57:49.967876"
     },
     {
       "url": "https://x.com/F_rederic_k/status/2034478776424300863/analytics",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka Doncic mother",
-      "collected_at": "2026-03-20T05:39:47.461295"
+      "collected_at": "2026-03-20T06:57:49.968826"
     },
     {
       "url": "https://x.com/Brizzy1717/status/2034478741460484125",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka Doncic mother",
-      "collected_at": "2026-03-20T05:39:47.462115"
+      "collected_at": "2026-03-20T06:57:49.969701"
     },
     {
       "url": "https://x.com/Brizzy1717/status/2034478741460484125/analytics",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka Doncic mother",
-      "collected_at": "2026-03-20T05:39:47.462949"
+      "collected_at": "2026-03-20T06:57:49.970545"
     },
     {
       "url": "https://x.com/LakeShowERA/status/2034478734007566353",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka Doncic mother",
-      "collected_at": "2026-03-20T05:39:50.026164"
+      "collected_at": "2026-03-20T06:57:49.971420"
     },
     {
       "url": "https://x.com/LakeShowERA/status/2034478734007566353/analytics",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka Doncic mother",
-      "collected_at": "2026-03-20T05:39:50.027123"
+      "collected_at": "2026-03-20T06:57:49.972292"
     },
     {
       "url": "https://x.com/grok/status/2034767720433025055",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Mirjam Poterbin",
-      "collected_at": "2026-03-20T05:40:00.651024"
+      "collected_at": "2026-03-20T06:58:00.645377"
     },
     {
       "url": "https://x.com/grok/status/2034767720433025055/analytics",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Mirjam Poterbin",
-      "collected_at": "2026-03-20T05:40:00.652968"
+      "collected_at": "2026-03-20T06:58:00.648262"
     },
     {
       "url": "https://x.com/PuckhaberC179/status/2034496836598161759",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Mirjam Poterbin",
-      "collected_at": "2026-03-20T05:40:00.654433"
+      "collected_at": "2026-03-20T06:58:00.649720"
     },
     {
       "url": "https://x.com/PuckhaberC179/status/2034496836598161759/analytics",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Mirjam Poterbin",
-      "collected_at": "2026-03-20T05:40:00.655916"
+      "collected_at": "2026-03-20T06:58:00.651181"
+    },
+    {
+      "url": "https://x.com/leo16_21/status/2034869503239311739",
+      "platform": "X",
+      "topic_label": "Luka Mother",
+      "search_term": "Luka mom",
+      "collected_at": "2026-03-20T06:58:13.835398"
+    },
+    {
+      "url": "https://x.com/leo16_21/status/2034869503239311739/analytics",
+      "platform": "X",
+      "topic_label": "Luka Mother",
+      "search_term": "Luka mom",
+      "collected_at": "2026-03-20T06:58:13.836964"
     },
     {
       "url": "https://x.com/DannySande9251/status/2034856236047278389",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:14.322259"
+      "collected_at": "2026-03-20T06:58:13.838370"
     },
     {
       "url": "https://x.com/DannySande9251/status/2034856236047278389/analytics",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:14.323732"
+      "collected_at": "2026-03-20T06:58:13.839584"
     },
     {
       "url": "https://x.com/562chriss/status/2034855065253798372",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:14.325112"
+      "collected_at": "2026-03-20T06:58:13.840873"
     },
     {
       "url": "https://x.com/562chriss/status/2034855065253798372/analytics",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:14.326400"
+      "collected_at": "2026-03-20T06:58:13.842170"
     },
     {
       "url": "https://x.com/missysinghsongs/status/2034853566557438398",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:14.327660"
+      "collected_at": "2026-03-20T06:58:13.843353"
     },
     {
       "url": "https://x.com/missysinghsongs/status/2034853566557438398/analytics",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:14.328765"
+      "collected_at": "2026-03-20T06:58:13.844511"
     },
     {
       "url": "https://x.com/VKonch421/status/2034848624820076797",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:14.329946"
+      "collected_at": "2026-03-20T06:58:13.845682"
     },
     {
       "url": "https://x.com/VKonch421/status/2034848624820076797/analytics",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:14.331077"
+      "collected_at": "2026-03-20T06:58:13.847061"
     },
     {
       "url": "https://x.com/scabbbbbbbbbbb/status/2034825946260545961",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:14.332214"
+      "collected_at": "2026-03-20T06:58:13.848074"
     },
     {
       "url": "https://x.com/scabbbbbbbbbbb/status/2034825946260545961/analytics",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:14.333292"
+      "collected_at": "2026-03-20T06:58:13.849131"
     },
     {
       "url": "https://x.com/TReck444/status/2034825425562870266",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:14.334326"
+      "collected_at": "2026-03-20T06:58:13.850166"
     },
     {
       "url": "https://x.com/TReck444/status/2034825425562870266/analytics",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:14.335320"
+      "collected_at": "2026-03-20T06:58:13.851185"
     },
     {
       "url": "https://x.com/fyorot_/status/2034823924606017680",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:14.336310"
+      "collected_at": "2026-03-20T06:58:13.852157"
     },
     {
       "url": "https://x.com/fyorot_/status/2034823924606017680/analytics",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:14.337318"
+      "collected_at": "2026-03-20T06:58:13.853078"
     },
     {
       "url": "https://x.com/LeeJ09/status/2034823101364805641",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:14.338276"
+      "collected_at": "2026-03-20T06:58:13.855957"
     },
     {
       "url": "https://x.com/LeeJ09/status/2034823101364805641/analytics",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:14.339267"
+      "collected_at": "2026-03-20T06:58:13.859271"
     },
     {
       "url": "https://x.com/ItsReal2k/status/2034822524286996985",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:14.340222"
+      "collected_at": "2026-03-20T06:58:13.860170"
     },
     {
       "url": "https://x.com/ItsReal2k/status/2034822524286996985/analytics",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:14.341142"
+      "collected_at": "2026-03-20T06:58:13.861202"
     },
     {
       "url": "https://x.com/grok/status/2034808297228792031",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:14.344876"
+      "collected_at": "2026-03-20T06:58:13.862107"
     },
     {
       "url": "https://x.com/grok/status/2034808297228792031/analytics",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:14.350764"
+      "collected_at": "2026-03-20T06:58:13.863005"
     },
     {
       "url": "https://x.com/pfivejett/status/2034801265650409757",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:14.351676"
+      "collected_at": "2026-03-20T06:58:13.863910"
     },
     {
       "url": "https://x.com/pfivejett/status/2034801265650409757/analytics",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:14.352533"
+      "collected_at": "2026-03-20T06:58:13.864754"
     },
     {
       "url": "https://x.com/sorrowblck/status/2034769384317542608",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:14.353401"
+      "collected_at": "2026-03-20T06:58:13.865631"
     },
     {
       "url": "https://x.com/sorrowblck/status/2034769384317542608/analytics",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:14.354245"
+      "collected_at": "2026-03-20T06:58:13.866475"
     },
     {
       "url": "https://x.com/LeLosLakers/status/2034768326250176990",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:14.355066"
+      "collected_at": "2026-03-20T06:58:16.424074"
     },
     {
       "url": "https://x.com/LeLosLakers/status/2034768326250176990/analytics",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:14.355991"
+      "collected_at": "2026-03-20T06:58:16.425067"
     },
     {
       "url": "https://x.com/grok/status/2034764673036304690",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:16.915770"
+      "collected_at": "2026-03-20T06:58:16.427710"
     },
     {
       "url": "https://x.com/grok/status/2034764673036304690/analytics",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:16.916744"
+      "collected_at": "2026-03-20T06:58:16.428559"
     },
     {
       "url": "https://x.com/Champ_Lion/status/2034730379312029731",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:16.917668"
+      "collected_at": "2026-03-20T06:58:18.976846"
     },
     {
       "url": "https://x.com/Champ_Lion/status/2034730379312029731/analytics",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:16.919422"
+      "collected_at": "2026-03-20T06:58:18.978811"
     },
     {
       "url": "https://x.com/Salva_NL/status/2034703517806387404",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:19.470088"
+      "collected_at": "2026-03-20T06:58:18.979707"
     },
     {
       "url": "https://x.com/Salva_NL/status/2034703517806387404/analytics",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:19.470981"
+      "collected_at": "2026-03-20T06:58:18.980620"
     },
     {
       "url": "https://x.com/roricait/status/2034701947177996586",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:19.471824"
+      "collected_at": "2026-03-20T06:58:18.981498"
     },
     {
       "url": "https://x.com/roricait/status/2034701947177996586/analytics",
       "platform": "X",
       "topic_label": "Luka Mother",
       "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:19.472695"
+      "collected_at": "2026-03-20T06:58:18.982413"
     },
     {
-      "url": "https://x.com/Nyakek/status/2034701204203209184",
-      "platform": "X",
+      "url": "https://www.reddit.com/r/DaddysTGirl/comments/1ryouin/would_you_play_with_my_girldick",
+      "platform": "Reddit",
       "topic_label": "Luka Mother",
-      "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:19.473523"
+      "search_term": "Luka Doncic mother",
+      "collected_at": "2026-03-20T06:58:25.281878"
     },
     {
-      "url": "https://x.com/Nyakek/status/2034701204203209184/analytics",
-      "platform": "X",
+      "url": "https://www.reddit.com/r/DaddysTGirl/comments/1ryoqc4/can_you_guess_what_i_taste_like",
+      "platform": "Reddit",
       "topic_label": "Luka Mother",
-      "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:19.475157"
+      "search_term": "Luka Doncic mother",
+      "collected_at": "2026-03-20T06:58:25.284672"
+    },
+    {
+      "url": "https://www.reddit.com/r/DaddysTGirl/comments/1ryom87/do_you_prefer_a_thick_ass_or_a_thick_girl_cock",
+      "platform": "Reddit",
+      "topic_label": "Luka Mother",
+      "search_term": "Luka Doncic mother",
+      "collected_at": "2026-03-20T06:58:25.287428"
     },
     {
       "url": "https://www.reddit.com/r/Fauxmoi/comments/1qwnqob/first_look_at_karim_a\u00efnouzs_rosebush_pruning_has",
       "platform": "Reddit",
       "topic_label": "Luka Mother",
       "search_term": "Luka Doncic mother",
-      "collected_at": "2026-03-20T05:40:28.713086"
+      "collected_at": "2026-03-20T06:58:28.668134"
     },
     {
       "url": "https://www.reddit.com/r/Fauxmoi/comments/1qj5crg/first_look_at_karim_a\u00efnouzs_rosebush_pruning",
       "platform": "Reddit",
       "topic_label": "Luka Mother",
       "search_term": "Luka Doncic mother",
-      "collected_at": "2026-03-20T05:40:28.719690"
+      "collected_at": "2026-03-20T06:58:28.682457"
     },
     {
       "url": "https://www.reddit.com/r/Fauxmoi/comments/1o2i0p6/father_mother_sister_brother_trailer_directed_by",
       "platform": "Reddit",
       "topic_label": "Luka Mother",
       "search_term": "Luka Doncic mother",
-      "collected_at": "2026-03-20T05:40:28.723650"
+      "collected_at": "2026-03-20T06:58:28.686952"
     },
     {
       "url": "https://www.reddit.com/user/sicknology/comments/1rhaex0/today_is_luka_doncic_bday_today",
       "platform": "Reddit",
       "topic_label": "Luka Mother",
       "search_term": "Mirjam Poterbin",
-      "collected_at": "2026-03-20T05:40:38.712455"
+      "collected_at": "2026-03-20T06:58:38.778195"
     },
     {
       "url": "https://www.reddit.com/r/Slovenia/comments/x7yzto/luka_don\u010di\u0107_primoran_to\u017eiti_mirjam_poterbin_za",
       "platform": "Reddit",
       "topic_label": "Luka Mother",
       "search_term": "Mirjam Poterbin",
-      "collected_at": "2026-03-20T05:40:38.716977"
+      "collected_at": "2026-03-20T06:58:38.782309"
     },
     {
       "url": "https://www.reddit.com/user/whoceleb2022/comments/umeb8y/what_is_the_net_worth_of_mirjam_poterbin_age",
       "platform": "Reddit",
       "topic_label": "Luka Mother",
       "search_term": "Mirjam Poterbin",
-      "collected_at": "2026-03-20T05:40:38.719698"
+      "collected_at": "2026-03-20T06:58:38.784818"
     },
     {
       "url": "https://www.reddit.com/r/nba/comments/svjt43/caplan_hes_one_of_the_best_players_to_ever_play",
       "platform": "Reddit",
       "topic_label": "Luka Mother",
       "search_term": "Mirjam Poterbin",
-      "collected_at": "2026-03-20T05:40:38.723149"
+      "collected_at": "2026-03-20T06:58:38.788151"
     },
     {
       "url": "https://www.reddit.com/r/NBA_Slovenija/comments/lh1r1f/zanimiv_pogovor_z_mirjam_poterbin_lukovo_mamo_ki",
       "platform": "Reddit",
       "topic_label": "Luka Mother",
       "search_term": "Mirjam Poterbin",
-      "collected_at": "2026-03-20T05:40:38.725397"
+      "collected_at": "2026-03-20T06:58:38.790380"
     },
     {
       "url": "https://www.reddit.com/r/Mavericks/comments/gu6q6i/interview_with_lukas_mom_on_national_tv",
       "platform": "Reddit",
       "topic_label": "Luka Mother",
       "search_term": "Mirjam Poterbin",
-      "collected_at": "2026-03-20T05:40:38.729712"
+      "collected_at": "2026-03-20T06:58:38.793420"
     },
     {
-      "url": "https://www.reddit.com/r/DaddyWantsMe/comments/1rylsod/i_want_a_man_thats_okay_with_me_wanting_to_top",
+      "url": "https://www.reddit.com/r/DaddysTGirl/comments/1rynpfv/do_you_prefer_a_thick_ass_or_a_thick_girl_cock",
       "platform": "Reddit",
       "topic_label": "Luka Mother",
       "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:52.205190"
+      "collected_at": "2026-03-20T06:58:52.191592"
     },
     {
-      "url": "https://www.reddit.com/r/DaddyWantsMe/comments/1rylrhy/i_love_sucking_cock_more_pls",
+      "url": "https://www.reddit.com/r/DaddysTGirl/comments/1rynkd1/can_you_guess_what_i_taste_like",
       "platform": "Reddit",
       "topic_label": "Luka Mother",
       "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:52.210321"
+      "collected_at": "2026-03-20T06:58:52.195030"
     },
     {
-      "url": "https://www.reddit.com/r/DaddyWantsMe/comments/1ryl975/would_you_let_me_fill_you_up",
+      "url": "https://www.reddit.com/r/DaddysTGirl/comments/1ryne22/do_you_prefer_a_thick_ass_or_a_thick_girl_cock",
       "platform": "Reddit",
       "topic_label": "Luka Mother",
       "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:52.214379"
-    },
-    {
-      "url": "https://www.reddit.com/r/HopInDaddy/comments/1ryk2ut/girlcock_or_butt",
-      "platform": "Reddit",
-      "topic_label": "Luka Mother",
-      "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:52.217768"
-    },
-    {
-      "url": "https://www.reddit.com/r/HopInDaddy/comments/1ryjou2/my_favorite_seat_is_your_face_mind_if_i_sit_down",
-      "platform": "Reddit",
-      "topic_label": "Luka Mother",
-      "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:52.223311"
-    },
-    {
-      "url": "https://www.reddit.com/r/HopInDaddy/comments/1ryjn3o/whatre_you_staring_at",
-      "platform": "Reddit",
-      "topic_label": "Luka Mother",
-      "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:52.227189"
-    },
-    {
-      "url": "https://www.reddit.com/r/HopInDaddy/comments/1ryj3bb/whatre_you_staring_at",
-      "platform": "Reddit",
-      "topic_label": "Luka Mother",
-      "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:40:52.231615"
+      "collected_at": "2026-03-20T06:58:52.198022"
     },
     {
       "url": "https://www.youtube.com/watch",
       "platform": "YouTube",
       "topic_label": "Luka Mother",
       "search_term": "Luka mom",
-      "collected_at": "2026-03-20T05:41:20.054587"
+      "collected_at": "2026-03-20T06:59:19.915905"
     },
     {
-      "url": "https://www.tiktok.com/@nba/video/7619197007038516511",
+      "url": "https://www.tiktok.com/@yahoosports/video/7619196929276169485",
       "platform": "TikTok",
       "topic_label": "Luka Mother",
       "search_term": "lukadoncic",
-      "collected_at": "2026-03-20T05:41:37.646801"
-    },
-    {
-      "url": "https://www.tiktok.com/@brandonsdeutsch/video/7619163121214672142",
-      "platform": "TikTok",
-      "topic_label": "Luka Mother",
-      "search_term": "lukadoncic",
-      "collected_at": "2026-03-20T05:41:37.647742"
+      "collected_at": "2026-03-20T06:59:37.577831"
     },
     {
       "url": "https://www.tiktok.com/@clutchstories/video/7269842391581019438",
       "platform": "TikTok",
       "topic_label": "Luka Mother",
       "search_term": "lukamom",
-      "collected_at": "2026-03-20T05:41:41.855614"
+      "collected_at": "2026-03-20T06:59:41.792836"
     },
     {
       "url": "https://www.tiktok.com/@gamepointlive/video/7141719863394929966",
       "platform": "TikTok",
       "topic_label": "Luka Mother",
       "search_term": "lukamom",
-      "collected_at": "2026-03-20T05:41:41.857145"
+      "collected_at": "2026-03-20T06:59:41.794412"
     },
     {
       "url": "https://www.tiktok.com/@trendmaxxer/video/7478493443325545783",
       "platform": "TikTok",
       "topic_label": "Luka Mother",
       "search_term": "lukamom",
-      "collected_at": "2026-03-20T05:41:41.858487"
+      "collected_at": "2026-03-20T06:59:41.795916"
     },
     {
       "url": "https://www.tiktok.com/@snarklebark/video/7495079500066065707",
       "platform": "TikTok",
       "topic_label": "Luka Mother",
       "search_term": "lukamom",
-      "collected_at": "2026-03-20T05:41:41.860313"
+      "collected_at": "2026-03-20T06:59:41.797417"
     },
     {
-      "url": "https://www.tiktok.com/@celebteatimee/video/7487185448759037226",
+      "url": "https://www.tiktok.com/@a.csports/video/7141817726259023150",
       "platform": "TikTok",
       "topic_label": "Luka Mother",
       "search_term": "lukamom",
-      "collected_at": "2026-03-20T05:41:41.861616"
-    },
-    {
-      "url": "https://www.tiktok.com/@francescawitzburg/video/7467962020311223583",
-      "platform": "TikTok",
-      "topic_label": "Luka Mother",
-      "search_term": "lukamom",
-      "collected_at": "2026-03-20T05:41:41.862881"
+      "collected_at": "2026-03-20T06:59:41.798707"
     },
     {
       "url": "https://www.tiktok.com/@shebetsports/video/7617575371751443732",
       "platform": "TikTok",
       "topic_label": "Luka Mother",
       "search_term": "lukamom",
-      "collected_at": "2026-03-20T05:41:41.864082"
+      "collected_at": "2026-03-20T06:59:41.800003"
     },
     {
-      "url": "https://www.tiktok.com/@senaida.lobosco/video/7616658656045632781",
+      "url": "https://www.tiktok.com/@celebteatimee/video/7487185448759037226",
       "platform": "TikTok",
       "topic_label": "Luka Mother",
       "search_term": "lukamom",
-      "collected_at": "2026-03-20T05:41:41.865303"
+      "collected_at": "2026-03-20T06:59:41.801250"
     },
     {
       "url": "https://www.tiktok.com/@efectoimpacto/video/7617132705062505750",
       "platform": "TikTok",
       "topic_label": "Luka Mother",
       "search_term": "lukamom",
-      "collected_at": "2026-03-20T05:41:41.866479"
+      "collected_at": "2026-03-20T06:59:41.802484"
     },
     {
-      "url": "https://www.tiktok.com/@jordan.keltner/video/7568677315270479134",
+      "url": "https://www.tiktok.com/@senaida.lobosco/video/7616658656045632781",
       "platform": "TikTok",
       "topic_label": "Luka Mother",
       "search_term": "lukamom",
-      "collected_at": "2026-03-20T05:41:41.867635"
+      "collected_at": "2026-03-20T06:59:41.803664"
+    },
+    {
+      "url": "https://www.tiktok.com/@francescawitzburg/video/7467962020311223583",
+      "platform": "TikTok",
+      "topic_label": "Luka Mother",
+      "search_term": "lukamom",
+      "collected_at": "2026-03-20T06:59:41.804752"
     },
     {
       "url": "https://www.tiktok.com/@thatguygarf/video/7156417300298714414",
       "platform": "TikTok",
       "topic_label": "Luka Mother",
       "search_term": "lukamom",
-      "collected_at": "2026-03-20T05:41:41.868680"
+      "collected_at": "2026-03-20T06:59:41.805867"
+    },
+    {
+      "url": "https://www.tiktok.com/@jordan.keltner/video/7568677315270479134",
+      "platform": "TikTok",
+      "topic_label": "Luka Mother",
+      "search_term": "lukamom",
+      "collected_at": "2026-03-20T06:59:41.806978"
+    },
+    {
+      "url": "https://www.tiktok.com/@monet.penry/video/7616664189305638175",
+      "platform": "TikTok",
+      "topic_label": "Luka Mother",
+      "search_term": "lukamom",
+      "collected_at": "2026-03-20T06:59:41.808085"
     },
     {
       "url": "https://www.tiktok.com/@nino.danby/video/7613969945847680270",
       "platform": "TikTok",
       "topic_label": "Luka Mother",
       "search_term": "lukamom",
-      "collected_at": "2026-03-20T05:41:41.870043"
-    },
-    {
-      "url": "https://www.tiktok.com/@zxc12119/video/7584042777005018398",
-      "platform": "TikTok",
-      "topic_label": "Luka Mother",
-      "search_term": "lukamom",
-      "collected_at": "2026-03-20T05:41:41.871069"
+      "collected_at": "2026-03-20T06:59:41.809256"
     },
     {
       "url": "https://www.tiktok.com/@shekrystalclear/video/7536644362541731127",
       "platform": "TikTok",
       "topic_label": "Luka Mother",
       "search_term": "lukamom",
-      "collected_at": "2026-03-20T05:41:41.872111"
-    },
-    {
-      "url": "https://www.tiktok.com/@thyhailzgaming/video/7252548358965890346",
-      "platform": "TikTok",
-      "topic_label": "Luka Mother",
-      "search_term": "lukamom",
-      "collected_at": "2026-03-20T05:41:41.873128"
+      "collected_at": "2026-03-20T06:59:41.810288"
     },
     {
       "url": "https://www.tiktok.com/@dailymailsportusa/video/7616127029326400790",
       "platform": "TikTok",
       "topic_label": "Luka Mother",
       "search_term": "lukafamily",
-      "collected_at": "2026-03-20T05:41:46.105294"
+      "collected_at": "2026-03-20T06:59:46.000516"
     },
     {
       "url": "https://www.tiktok.com/@dailymailsportusa/video/7619071589409180931",
       "platform": "TikTok",
       "topic_label": "Luka Mother",
       "search_term": "lukafamily",
-      "collected_at": "2026-03-20T05:41:46.106943"
-    },
-    {
-      "url": "https://www.tiktok.com/@skyredbull_105/video/7615950322829151518",
-      "platform": "TikTok",
-      "topic_label": "Luka Mother",
-      "search_term": "lukafamily",
-      "collected_at": "2026-03-20T05:41:46.108332"
+      "collected_at": "2026-03-20T06:59:46.001896"
     },
     {
       "url": "https://www.tiktok.com/@pet.times56/video/7609852594202234126",
       "platform": "TikTok",
       "topic_label": "Luka Mother",
       "search_term": "lukafamily",
-      "collected_at": "2026-03-20T05:41:46.109597"
+      "collected_at": "2026-03-20T06:59:46.003276"
     },
     {
-      "url": "https://www.tiktok.com/@moviemashups66/video/7617456014245350686",
+      "url": "https://www.tiktok.com/@skyredbull_105/video/7615950322829151518",
       "platform": "TikTok",
       "topic_label": "Luka Mother",
       "search_term": "lukafamily",
-      "collected_at": "2026-03-20T05:41:46.110920"
+      "collected_at": "2026-03-20T06:59:46.004517"
     },
     {
       "url": "https://www.tiktok.com/@skyredbull_105/video/7580328165197745439",
       "platform": "TikTok",
       "topic_label": "Luka Mother",
       "search_term": "lukafamily",
-      "collected_at": "2026-03-20T05:41:46.112275"
+      "collected_at": "2026-03-20T06:59:46.010131"
     },
     {
       "url": "https://www.tiktok.com/@babymoment151/video/7615934552346905869",
       "platform": "TikTok",
       "topic_label": "Luka Mother",
       "search_term": "lukafamily",
-      "collected_at": "2026-03-20T05:41:46.113524"
+      "collected_at": "2026-03-20T06:59:46.011260"
+    },
+    {
+      "url": "https://www.tiktok.com/@marca.en/video/7375007460651846955",
+      "platform": "TikTok",
+      "topic_label": "Luka Mother",
+      "search_term": "lukafamily",
+      "collected_at": "2026-03-20T06:59:46.012365"
+    },
+    {
+      "url": "https://www.tiktok.com/@moviemashups66/video/7617456014245350686",
+      "platform": "TikTok",
+      "topic_label": "Luka Mother",
+      "search_term": "lukafamily",
+      "collected_at": "2026-03-20T06:59:46.013351"
     },
     {
       "url": "https://www.tiktok.com/@federicavo2/video/7607765553939221791",
       "platform": "TikTok",
       "topic_label": "Luka Mother",
       "search_term": "lukafamily",
-      "collected_at": "2026-03-20T05:41:46.114681"
+      "collected_at": "2026-03-20T06:59:46.014331"
     },
     {
       "url": "https://www.tiktok.com/@pubg.talkshow/video/7615949421548817695",
       "platform": "TikTok",
       "topic_label": "Luka Mother",
       "search_term": "lukafamily",
-      "collected_at": "2026-03-20T05:41:46.115928"
+      "collected_at": "2026-03-20T06:59:46.015413"
     },
     {
       "url": "https://www.tiktok.com/@spillasburner/video/7615793089310936350",
       "platform": "TikTok",
       "topic_label": "Luka Mother",
       "search_term": "lukafamily",
-      "collected_at": "2026-03-20T05:41:46.117084"
+      "collected_at": "2026-03-20T06:59:46.016477"
     },
     {
       "url": "https://www.tiktok.com/@sportskeeda_basketball/video/7581316492470291724",
       "platform": "TikTok",
       "topic_label": "Luka Mother",
       "search_term": "lukafamily",
-      "collected_at": "2026-03-20T05:41:46.118138"
+      "collected_at": "2026-03-20T06:59:46.018097"
     },
     {
-      "url": "https://www.tiktok.com/@hoop_planet/video/7619178614482832653",
+      "url": "https://www.tiktok.com/@quiscapalot/video/7616458112035196173",
       "platform": "TikTok",
       "topic_label": "Luka Mother",
       "search_term": "lukafamily",
-      "collected_at": "2026-03-20T05:41:46.119170"
+      "collected_at": "2026-03-20T06:59:46.019063"
     },
     {
-      "url": "https://www.tiktok.com/@nikoluka/video/7599754821033413910",
+      "url": "https://www.tiktok.com/@nxtparadigmshift/video/7616583659570662669",
       "platform": "TikTok",
       "topic_label": "Luka Mother",
       "search_term": "lukafamily",
-      "collected_at": "2026-03-20T05:41:46.120846"
-    },
-    {
-      "url": "https://www.tiktok.com/@mariana.fans05/video/7618628559485127967",
-      "platform": "TikTok",
-      "topic_label": "Luka Mother",
-      "search_term": "lukafamily",
-      "collected_at": "2026-03-20T05:41:46.121993"
-    },
-    {
-      "url": "https://www.tiktok.com/@federicavo2/video/7616918831356808479",
-      "platform": "TikTok",
-      "topic_label": "Luka Mother",
-      "search_term": "lukafamily",
-      "collected_at": "2026-03-20T05:41:46.123028"
+      "collected_at": "2026-03-20T06:59:46.019983"
     }
   ],
   "analysis": {
     "Injunction": {
-      "verdict": "UNKNOWN",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+      "verdict": "WATCH",
+      "legal": {
+        "rating": "Watch",
+        "summary": "Multiple Reddit posts reference Luka Doncic filing an injunction related to custody of his child and disputes with his partner. The legal content appears to involve family court matters and custody arrangements, which could have ongoing implications."
+      },
+      "media": {
+        "rating": "Watch",
+        "summary": "The story appears primarily contained to social media platforms and fan communities rather than mainstream sports media. Coverage is focused on Reddit gossip forums and social basketball accounts, suggesting limited but growing media awareness."
+      },
+      "social_reaction": {
+        "rating": "Watch",
+        "summary": "Moderate engagement across basketball fan communities on Reddit and X, with posts appearing in multiple Lakers and NBA subreddits. The reaction appears more curious/gossipy than hostile, but personal family matters are generating public discussion."
+      },
+      "rumor": {
+        "rating": "Alarm",
+        "summary": "Significant unverified claims circulating about custody battles, partner disputes, and legal filings without apparent official confirmation. Reddit posts contain specific allegations about injunctions and relationship conflicts that could be speculation or leaked information."
+      },
+      "top_findings": [
+        "Multiple posts claim Luka Doncic has filed an injunction related to child custody",
+        "Allegations of disputes with partner Anamaria Goltes appearing across fan communities",
+        "Family court/custody content spreading through basketball social media without mainstream media pickup yet"
+      ],
+      "recency_flags": "Several Reddit posts appear older than 24-hour window based on post IDs and dating (posts from r/Fauxmoi and other subreddits show older timestamps), though some Lakers-related posts appear within target timeframe.",
+      "recommended_action": "Monitor closely for mainstream media pickup and prepare defensive messaging around family privacy, while verifying accuracy of custody/legal claims through appropriate channels."
     },
     "Luka Mother": {
-      "verdict": "UNKNOWN",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+      "verdict": "WATCH",
+      "legal": {
+        "rating": "Clear",
+        "summary": "No legal implications detected from the URL patterns or search context. The topic appears to be related to routine social media discussion without legal substance."
+      },
+      "media": {
+        "rating": "Watch",
+        "summary": "Moderate volume of social media activity concentrated on X/Twitter platform with 116 total URLs collected in 24-hour period. No mainstream media pickup detected, but the volume suggests emerging narrative worth monitoring."
+      },
+      "social_reaction": {
+        "rating": "Watch",
+        "summary": "Sustained social media conversation primarily on X with multiple users posting within tight timeframe clusters. The pattern of sequential status IDs suggests coordinated or viral-style engagement around the topic."
+      },
+      "rumor": {
+        "rating": "Watch",
+        "summary": "Cannot assess rumor content without examining actual posts, but the concentrated activity pattern and topic focus on 'Luka Mother' suggests potential speculation or unverified claims circulating. The timing clustering warrants content review."
+      },
+      "top_findings": [
+        "116 URLs collected in 24-hour period, indicating significant social media traction",
+        "Activity heavily concentrated on X platform with sequential posting patterns suggesting viral spread",
+        "Multiple users (@leo16_21, @ZebraZooo, @LakeShowERA, others) posting within narrow timeframes"
+      ],
+      "recency_flags": "All X URLs show status IDs consistent with March 2026 timeframe and appear within the 24-hour lookback window. Other platforms may contain older content due to filtering limitations.",
+      "recommended_action": "Immediately review actual post content from top 10-15 URLs to assess narrative direction and determine if proactive response is needed."
     }
   },
   "velocity": {
@@ -1160,11 +1253,11 @@
         "velocity_alert": false
       },
       "Reddit": {
-        "current": 10,
+        "current": 18,
         "previous": 10,
-        "delta": 0,
+        "delta": 8,
         "cap_hit": false,
-        "velocity_alert": false
+        "velocity_alert": true
       },
       "YouTube": {
         "current": 0,
@@ -1197,16 +1290,16 @@
     },
     "Luka Mother": {
       "X": {
-        "current": 68,
+        "current": 70,
         "previous": 68,
-        "delta": 0,
+        "delta": 2,
         "cap_hit": false,
-        "velocity_alert": false
+        "velocity_alert": true
       },
       "Reddit": {
-        "current": 16,
+        "current": 15,
         "previous": 16,
-        "delta": 0,
+        "delta": -1,
         "cap_hit": false,
         "velocity_alert": false
       },
@@ -1225,9 +1318,9 @@
         "velocity_alert": false
       },
       "TikTok": {
-        "current": 32,
+        "current": 30,
         "previous": 32,
-        "delta": 0,
+        "delta": -2,
         "cap_hit": true,
         "velocity_alert": true
       },
