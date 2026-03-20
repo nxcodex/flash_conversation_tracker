@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flash Check — Discourse Intelligence</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  /* ── RESET & BASE ─────────────────────────────────────────── */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg:        #0a0a0b;
+    --surface:   #111114;
+    --border:    #1e1e24;
+    --border2:   #2a2a33;
+    --text:      #e8e8f0;
+    --muted:     #6b6b80;
+    --accent:    #c8f542;
+    --alarm:     #ff4757;
+    --watch:     #ffa502;
+    --clear:     #2ed573;
+    --cap:       #ff6b81;
+    --mono:      'DM Mono', monospace;
+    --sans:      'Inter', sans-serif;
+    --display:   'Syne', sans-serif;
+    --radius:    6px;
+  }
+
+  html { font-size: 15px; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    font-weight: 300;
+    line-height: 1.6;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* ── PASSWORD GATE ────────────────────────────────────────── */
+  #gate {
+    position: fixed; inset: 0;
+    background: var(--bg);
+    display: flex; align-items: center; justify-content: center;
+    z-index: 1000;
+    animation: fadeIn .3s ease;
+  }
+
+  .gate-box {
+    width: 340px;
+    border: 1px solid var(--border2);
+    padding: 40px;
+    background: var(--surface);
+  }
+
+  .gate-wordmark {
+    font-family: var(--display);
+    font-weight: 800;
+    font-size: 1.1rem;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 6px;
+  }
+
+  .gate-sub {
+    font-family: var(--mono);
+    font-size: .72rem;
+    color: var(--muted);
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    margin-bottom: 36px;
+  }
+
+  .gate-label {
+    font-family: var(--mono);
+    font-size: .72rem;
+    color: var(--muted);
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  .gate-input {
+    width: 100%;
+    background: var(--bg);
+    border: 1px solid var(--border2);
+    color: var(--text);
+    font-family: var(--mono);
+    font-size: .9rem;
+    padding: 12px 14px;
+    outline: none;
+    transition: border-color .2s;
+    margin-bottom: 12px;
+  }
+  .gate-input:focus { border-color: var(--accent); }
+
+  .gate-btn {
+    width: 100%;
+    background: var(--accent);
+    color: #0a0a0b;
+    border: none;
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: .85rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    padding: 13px;
+    cursor: pointer;
+    transition: opacity .15s;
+  }
+  .gate-btn:hover { opacity: .85; }
+
+  .gate-error {
+    font-family: var(--mono);
+    font-size: .75rem;
+    color: var(--alarm);
+    margin-top: 10px;
+    min-height: 18px;
+  }
+
+  /* ── APP SHELL ────────────────────────────────────────────── */
+  #app { display: none; }
+
+  .topbar {
+    border-bottom: 1px solid var(--border);
+    padding: 0 32px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background: var(--bg);
+    z-index: 100;
+  }
+
+  .topbar-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .wordmark {
+    font-family: var(--display);
+    font-weight: 800;
+    font-size: .95rem;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+
+  .topbar-divider {
+    width: 1px;
+    height: 18px;
+    background: var(--border2);
+  }
+
+  .run-meta {
+    font-family: var(--mono);
+    font-size: .72rem;
+    color: var(--muted);
+    letter-spacing: .04em;
+  }
+
+  .run-meta span {
+    color: var(--text);
+  }
+
+  .topbar-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .total-badge {
+    font-family: var(--mono);
+    font-size: .72rem;
+    color: var(--muted);
+    border: 1px solid var(--border2);
+    padding: 4px 10px;
+  }
+
+  .logout-btn {
+    font-family: var(--mono);
+    font-size: .72rem;
+    color: var(--muted);
+    background: none;
+    border: 1px solid var(--border);
+    padding: 4px 10px;
+    cursor: pointer;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    transition: color .15s, border-color .15s;
+  }
+  .logout-btn:hover { color: var(--text); border-color: var(--border2); }
+
+  /* ── MAIN LAYOUT ──────────────────────────────────────────── */
+  .main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 32px 80px;
+  }
+
+  /* ── OVERALL VERDICT BANNER ───────────────────────────────── */
+  .verdict-banner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1px;
+    background: var(--border);
+    border: 1px solid var(--border);
+    margin-bottom: 48px;
+  }
+
+  .verdict-cell {
+    background: var(--surface);
+    padding: 28px 28px 24px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .verdict-cell::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+  }
+  .verdict-cell.alarm::before  { background: var(--alarm); }
+  .verdict-cell.watch::before  { background: var(--watch); }
+  .verdict-cell.clear::before  { background: var(--clear); }
+
+  .verdict-topic {
+    font-family: var(--mono);
+    font-size: .7rem;
+    color: var(--muted);
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  .verdict-label {
+    font-family: var(--display);
+    font-weight: 800;
+    font-size: 1.8rem;
+    letter-spacing: -.01em;
+    line-height: 1;
+    margin-bottom: 10px;
+  }
+  .verdict-label.alarm { color: var(--alarm); }
+  .verdict-label.watch { color: var(--watch); }
+  .verdict-label.clear { color: var(--clear); }
+
+  .verdict-action {
+    font-size: .82rem;
+    color: var(--muted);
+    line-height: 1.5;
+    border-top: 1px solid var(--border);
+    padding-top: 12px;
+    margin-top: 12px;
+  }
+
+  /* ── SECTION HEADERS ──────────────────────────────────────── */
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+    margin-top: 48px;
+  }
+
+  .section-label {
+    font-family: var(--mono);
+    font-size: .72rem;
+    color: var(--muted);
+    letter-spacing: .14em;
+    text-transform: uppercase;
+  }
+
+  .section-line {
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+  }
+
+  /* ── CLASSIFICATION CARDS ─────────────────────────────────── */
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(520px, 1fr));
+    gap: 2px;
+    background: var(--border);
+  }
+
+  .topic-card {
+    background: var(--surface);
+    padding: 28px;
+  }
+
+  .topic-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .topic-name {
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: .04em;
+  }
+
+  .dim-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+    background: var(--border);
+    margin-bottom: 20px;
+  }
+
+  .dim-cell {
+    background: var(--bg);
+    padding: 14px 16px;
+  }
+
+  .dim-name {
+    font-family: var(--mono);
+    font-size: .65rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 4px;
+  }
+
+  .dim-rating {
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .04em;
+    margin-bottom: 6px;
+  }
+  .dim-rating.alarm { color: var(--alarm); }
+  .dim-rating.watch { color: var(--watch); }
+  .dim-rating.clear { color: var(--clear); }
+
+  .dim-summary {
+    font-size: .78rem;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+
+  .findings-list {
+    list-style: none;
+    border-top: 1px solid var(--border);
+    padding-top: 16px;
+  }
+
+  .findings-list li {
+    font-size: .8rem;
+    color: var(--muted);
+    padding: 5px 0 5px 16px;
+    position: relative;
+    line-height: 1.5;
+  }
+
+  .findings-list li::before {
+    content: '›';
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+    font-weight: 700;
+  }
+
+  .recency-flag {
+    font-family: var(--mono);
+    font-size: .72rem;
+    color: var(--watch);
+    border: 1px solid rgba(255,165,2,.2);
+    background: rgba(255,165,2,.04);
+    padding: 8px 12px;
+    margin-top: 12px;
+    display: none;
+  }
+  .recency-flag.visible { display: block; }
+
+  /* ── VELOCITY ─────────────────────────────────────────────── */
+  .velocity-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(520px, 1fr));
+    gap: 2px;
+    background: var(--border);
+  }
+
+  .velocity-card {
+    background: var(--surface);
+    padding: 28px;
+  }
+
+  .velocity-topic {
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: .95rem;
+    margin-bottom: 18px;
+  }
+
+  .platform-rows {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .platform-row {
+    display: grid;
+    grid-template-columns: 100px 1fr 80px 80px;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 14px;
+    background: var(--bg);
+  }
+
+  .platform-row.alert {
+    background: rgba(200,245,66,.03);
+    border-left: 2px solid var(--accent);
+  }
+
+  .platform-row.cap-hit {
+    background: rgba(255,71,87,.05);
+    border-left: 2px solid var(--alarm);
+  }
+
+  .plat-name {
+    font-family: var(--mono);
+    font-size: .75rem;
+    color: var(--muted);
+    letter-spacing: .06em;
+  }
+
+  .plat-bar-wrap {
+    height: 4px;
+    background: var(--border2);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .plat-bar {
+    height: 100%;
+    background: var(--accent);
+    transition: width .6s ease;
+  }
+
+  .plat-bar.cap { background: var(--alarm); }
+  .plat-bar.alert-bar { background: var(--watch); }
+
+  .plat-count {
+    font-family: var(--mono);
+    font-size: .78rem;
+    color: var(--text);
+    text-align: right;
+  }
+
+  .plat-delta {
+    font-family: var(--mono);
+    font-size: .75rem;
+    text-align: right;
+  }
+  .plat-delta.up   { color: var(--watch); }
+  .plat-delta.cap  { color: var(--alarm); }
+  .plat-delta.flat { color: var(--muted); }
+
+  .constraint-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 20px;
+  }
+
+  .constraint-pill {
+    font-family: var(--mono);
+    font-size: .65rem;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border: 1px solid var(--border2);
+    color: var(--muted);
+  }
+
+  .constraint-pill.date    { border-color: rgba(46,213,115,.25); color: var(--clear); }
+  .constraint-pill.uncon   { border-color: rgba(255,165,2,.25);  color: var(--watch); }
+  .constraint-pill.period  { border-color: rgba(200,245,66,.2);  color: var(--accent); }
+
+  /* ── URL TABLE ────────────────────────────────────────────── */
+  .url-table-wrap {
+    overflow-x: auto;
+    border: 1px solid var(--border);
+  }
+
+  .url-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: var(--mono);
+    font-size: .73rem;
+  }
+
+  .url-table th {
+    background: var(--surface);
+    padding: 10px 16px;
+    text-align: left;
+    color: var(--muted);
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+  }
+
+  .url-table td {
+    padding: 9px 16px;
+    border-bottom: 1px solid var(--border);
+    color: var(--muted);
+    vertical-align: middle;
+  }
+
+  .url-table tr:last-child td { border-bottom: none; }
+  .url-table tr:hover td { background: rgba(255,255,255,.02); }
+
+  .url-table td a {
+    color: var(--text);
+    text-decoration: none;
+    word-break: break-all;
+  }
+  .url-table td a:hover { color: var(--accent); }
+
+  .platform-tag {
+    display: inline-block;
+    padding: 2px 8px;
+    border: 1px solid var(--border2);
+    font-size: .65rem;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  .topic-tag {
+    font-size: .7rem;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+
+  /* ── URL FILTER BAR ───────────────────────────────────────── */
+  .filter-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+  }
+
+  .filter-btn {
+    font-family: var(--mono);
+    font-size: .7rem;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    padding: 6px 14px;
+    background: none;
+    border: 1px solid var(--border2);
+    color: var(--muted);
+    cursor: pointer;
+    transition: all .15s;
+  }
+  .filter-btn:hover, .filter-btn.active {
+    background: var(--accent);
+    color: #0a0a0b;
+    border-color: var(--accent);
+  }
+
+  /* ── CONSTRAINT TABLE ─────────────────────────────────────── */
+  .constraint-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: var(--mono);
+    font-size: .75rem;
+    border: 1px solid var(--border);
+  }
+  .constraint-table th {
+    background: var(--surface);
+    padding: 10px 16px;
+    text-align: left;
+    color: var(--muted);
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-size: .68rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .constraint-table td {
+    padding: 9px 16px;
+    border-bottom: 1px solid var(--border);
+    color: var(--muted);
+  }
+  .constraint-table tr:last-child td { border-bottom: none; }
+
+  /* ── NO DATA STATE ────────────────────────────────────────── */
+  .no-data {
+    text-align: center;
+    padding: 80px 40px;
+    color: var(--muted);
+  }
+  .no-data h2 {
+    font-family: var(--display);
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 12px;
+  }
+  .no-data code {
+    font-family: var(--mono);
+    font-size: .85rem;
+    color: var(--accent);
+    background: rgba(200,245,66,.07);
+    padding: 2px 8px;
+  }
+
+  /* ── FOOTER ───────────────────────────────────────────────── */
+  .footer {
+    border-top: 1px solid var(--border);
+    padding: 20px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  .footer-text {
+    font-family: var(--mono);
+    font-size: .68rem;
+    color: var(--muted);
+    letter-spacing: .06em;
+  }
+
+  /* ── ANIMATIONS ───────────────────────────────────────────── */
+  @keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }
+
+  .fade-up {
+    animation: fadeUp .4s ease both;
+  }
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(12px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  /* ── RESPONSIVE ───────────────────────────────────────────── */
+  @media (max-width: 700px) {
+    .topbar { padding: 0 16px; }
+    .main   { padding: 24px 16px 60px; }
+    .cards-grid, .velocity-grid { grid-template-columns: 1fr; }
+    .dim-grid { grid-template-columns: 1fr; }
+    .platform-row { grid-template-columns: 80px 1fr 60px 60px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ── PASSWORD GATE ── -->
+<div id="gate">
+  <div class="gate-box">
+    <div class="gate-wordmark">Flash Check</div>
+    <div class="gate-sub">Discourse Intelligence — Internal access only</div>
+    <div class="gate-label">Password</div>
+    <input type="password" class="gate-input" id="gateInput" placeholder="Enter password" autofocus>
+    <button class="gate-btn" onclick="submitPassword()">Enter</button>
+    <div class="gate-error" id="gateError"></div>
+  </div>
+</div>
+
+<!-- ── APP ── -->
+<div id="app">
+  <nav class="topbar">
+    <div class="topbar-left">
+      <div class="wordmark">Flash Check</div>
+      <div class="topbar-divider"></div>
+      <div class="run-meta" id="runMeta">—</div>
+    </div>
+    <div class="topbar-right">
+      <div class="total-badge" id="totalBadge">— URLs</div>
+      <button class="logout-btn" onclick="logout()">Sign out</button>
+    </div>
+  </nav>
+
+  <main class="main" id="mainContent">
+    <div class="no-data">
+      <h2>No report loaded</h2>
+      <p>Place your latest <code>flash_*.json</code> report in this folder as <code>latest.json</code> and reload.</p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-text">Flash Check Dashboard</div>
+    <div class="footer-text" id="footerMeta">—</div>
+  </footer>
+</div>
+
+<script>
+// ── PASSWORD CONFIG ──────────────────────────────────────────
+// To set your password:
+// 1. Go to: https://emn178.github.io/online-tools/sha256.html
+// 2. Type your password and copy the SHA-256 hash
+// 3. Paste it below
+const PASSWORD_HASH = '82c3acaf3aa25bc23557cc476d5cc0e643a104c350f958eb912919eeecba7349'; // ← paste your SHA-256 hash here
+
+// ── AUTH ─────────────────────────────────────────────────────
+async function hashPassword(pw) {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(pw));
+  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2,'0')).join('');
+}
+
+async function submitPassword() {
+  const pw = document.getElementById('gateInput').value.trim();
+  if (!pw) return;
+  if (!PASSWORD_HASH) {
+    // No password set — open access
+    unlock();
+    return;
+  }
+  const hash = await hashPassword(pw);
+  if (hash === PASSWORD_HASH) {
+    sessionStorage.setItem('flash_auth', '1');
+    unlock();
+  } else {
+    document.getElementById('gateError').textContent = 'Incorrect password.';
+    document.getElementById('gateInput').value = '';
+    document.getElementById('gateInput').focus();
+  }
+}
+
+function checkAuth() {
+  if (!PASSWORD_HASH) return true;
+  return sessionStorage.getItem('flash_auth') === '1';
+}
+
+function unlock() {
+  document.getElementById('gate').style.display = 'none';
+  document.getElementById('app').style.display = 'block';
+  loadReport();
+}
+
+function logout() {
+  sessionStorage.removeItem('flash_auth');
+  location.reload();
+}
+
+document.getElementById('gateInput').addEventListener('keydown', e => {
+  if (e.key === 'Enter') submitPassword();
+});
+
+// ── BOOT ─────────────────────────────────────────────────────
+window.onload = () => {
+  if (checkAuth()) {
+    unlock();
+  }
+};
+
+// ── REPORT LOADER ─────────────────────────────────────────────
+async function loadReport() {
+  try {
+    const res = await fetch('dashboard/latest.json?v=' + Date.now());
+    if (!res.ok) throw new Error('not found');
+    const data = await res.json();
+    renderDashboard(data);
+  } catch (e) {
+    // leave no-data state visible
+  }
+}
+
+// ── RENDER ────────────────────────────────────────────────────
+function ratingClass(r) {
+  const s = (r || '').toLowerCase();
+  if (s === 'alarm') return 'alarm';
+  if (s === 'watch') return 'watch';
+  return 'clear';
+}
+
+function renderDashboard(data) {
+  const main = document.getElementById('mainContent');
+
+  // topbar meta
+  document.getElementById('runMeta').innerHTML =
+    `Run <span>${data.run_time}</span> &nbsp;·&nbsp; Lookback <span>${data.lookback_hours}h</span>`;
+  document.getElementById('totalBadge').textContent = `${data.total_urls_collected} URLs`;
+  document.getElementById('footerMeta').textContent = data.run_time;
+
+  let html = '';
+
+  // ── VERDICT BANNER ──
+  const topics = data.topics || Object.keys(data.analysis || {});
+  html += `<div class="verdict-banner fade-up">`;
+  topics.forEach(t => {
+    const a = data.analysis?.[t];
+    if (!a) return;
+    const vc = ratingClass(a.verdict);
+    html += `
+      <div class="verdict-cell ${vc}">
+        <div class="verdict-topic">${t}</div>
+        <div class="verdict-label ${vc}">${a.verdict || '—'}</div>
+        <div class="verdict-action">${a.recommended_action || ''}</div>
+      </div>`;
+  });
+  html += `</div>`;
+
+  // ── CLASSIFICATION ──
+  html += sectionHeader('Classification');
+  html += `<div class="cards-grid">`;
+  topics.forEach(t => {
+    const a = data.analysis?.[t];
+    if (!a) return;
+    const dims = [
+      { key: 'legal',            label: 'Legal' },
+      { key: 'media',            label: 'Media' },
+      { key: 'social_reaction',  label: 'Social Reaction' },
+      { key: 'rumor',            label: 'Rumor' },
+    ];
+    html += `<div class="topic-card">
+      <div class="topic-card-header">
+        <div class="topic-name">${t}</div>
+      </div>
+      <div class="dim-grid">`;
+    dims.forEach(d => {
+      const dim = a[d.key] || {};
+      const rc = ratingClass(dim.rating);
+      html += `<div class="dim-cell">
+        <div class="dim-name">${d.label}</div>
+        <div class="dim-rating ${rc}">${dim.rating || '—'}</div>
+        <div class="dim-summary">${dim.summary || ''}</div>
+      </div>`;
+    });
+    html += `</div>`;
+    const findings = a.top_findings || [];
+    if (findings.length) {
+      html += `<ul class="findings-list">`;
+      findings.forEach(f => { html += `<li>${f}</li>`; });
+      html += `</ul>`;
+    }
+    const rf = a.recency_flags;
+    if (rf && rf.toLowerCase() !== 'none detected') {
+      html += `<div class="recency-flag visible">⚠ Recency: ${rf}</div>`;
+    }
+    html += `</div>`;
+  });
+  html += `</div>`;
+
+  // ── VELOCITY ──
+  const vel = data.velocity || {};
+  const constraints = data.platform_constraints || {};
+  if (Object.keys(vel).length) {
+    html += sectionHeader('Velocity');
+    html += `<div class="velocity-grid">`;
+    topics.forEach(t => {
+      if (!vel[t]) return;
+      const platforms = Object.entries(vel[t]);
+      const maxCount = Math.max(...platforms.map(([,v]) => v.current || 0), 1);
+      html += `<div class="velocity-card">
+        <div class="velocity-topic">${t}</div>
+        <div class="platform-rows">`;
+      platforms.forEach(([plat, v]) => {
+        const isAlert = v.velocity_alert;
+        const isCap   = v.cap_hit;
+        const rowClass = isCap ? 'cap-hit' : (isAlert ? 'alert' : '');
+        const pct = Math.round((v.current / maxCount) * 100);
+        const barClass = isCap ? 'cap' : (isAlert ? 'alert-bar' : '');
+        let deltaStr = '—';
+        let deltaClass = 'flat';
+        if (isCap) { deltaStr = 'CAP HIT'; deltaClass = 'cap'; }
+        else if (v.delta === null) { deltaStr = 'first'; deltaClass = 'flat'; }
+        else if (v.delta > 0)  { deltaStr = `+${v.delta}`; deltaClass = 'up'; }
+        else if (v.delta === 0){ deltaStr = '—'; deltaClass = 'flat'; }
+        html += `<div class="platform-row ${rowClass}">
+          <div class="plat-name">${plat}</div>
+          <div class="plat-bar-wrap"><div class="plat-bar ${barClass}" style="width:${pct}%"></div></div>
+          <div class="plat-count">${v.current}</div>
+          <div class="plat-delta ${deltaClass}">${deltaStr}</div>
+        </div>`;
+      });
+      html += `</div></div>`;
+    });
+    html += `</div>`;
+
+    // Constraint legend
+    if (Object.keys(constraints).length) {
+      html += `<div class="constraint-legend">`;
+      Object.entries(constraints).forEach(([p, v]) => {
+        const cls = v.type.includes('date') ? 'date' : v.type.includes('period') ? 'period' : 'uncon';
+        const icon = cls === 'date' ? '📅' : cls === 'period' ? '📆' : '⚠';
+        html += `<div class="constraint-pill ${cls}">${icon} ${p}: ${v.type}</div>`;
+      });
+      html += `</div>`;
+    }
+  }
+
+  // ── URL LIST ──
+  const urls = data.urls || [];
+  if (urls.length) {
+    html += sectionHeader('Source URLs');
+    const allTopics  = [...new Set(urls.map(u => u.topic_label))];
+    const allPlats   = [...new Set(urls.map(u => u.platform))];
+    html += `<div class="filter-row" id="filterRow">
+      <button class="filter-btn active" onclick="filterUrls('all', this)">All</button>`;
+    allTopics.forEach(t => {
+      html += `<button class="filter-btn" onclick="filterUrls('topic:${t}', this)">${t}</button>`;
+    });
+    allPlats.forEach(p => {
+      html += `<button class="filter-btn" onclick="filterUrls('plat:${p}', this)">${p}</button>`;
+    });
+    html += `</div>`;
+    html += `<div class="url-table-wrap">
+      <table class="url-table" id="urlTable">
+        <thead>
+          <tr>
+            <th>Platform</th>
+            <th>Topic</th>
+            <th>URL</th>
+            <th>Collected</th>
+          </tr>
+        </thead>
+        <tbody>`;
+    urls.forEach(u => {
+      const ts = u.collected_at ? u.collected_at.replace('T', ' ').slice(0,16) : '—';
+      html += `<tr data-topic="${u.topic_label}" data-platform="${u.platform}">
+        <td><span class="platform-tag">${u.platform}</span></td>
+        <td><span class="topic-tag">${u.topic_label}</span></td>
+        <td><a href="${u.url}" target="_blank" rel="noopener">${u.url}</a></td>
+        <td>${ts}</td>
+      </tr>`;
+    });
+    html += `</tbody></table></div>`;
+  }
+
+  main.innerHTML = html;
+}
+
+function sectionHeader(label) {
+  return `<div class="section-header">
+    <div class="section-label">${label}</div>
+    <div class="section-line"></div>
+  </div>`;
+}
+
+// ── URL FILTER ─────────────────────────────────────────────────
+function filterUrls(filter, btn) {
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  const rows = document.querySelectorAll('#urlTable tbody tr');
+  rows.forEach(row => {
+    if (filter === 'all') { row.style.display = ''; return; }
+    const [type, val] = filter.split(':');
+    const match = type === 'topic'
+      ? row.dataset.topic === val
+      : row.dataset.platform === val;
+    row.style.display = match ? '' : 'none';
+  });
+}
+</script>
+</body>
+</html>
