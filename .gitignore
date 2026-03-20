@@ -1,0 +1,53 @@
+# ── CREDENTIALS & AUTH ────────────────────────────────────────
+# These must NEVER be committed
+config.py
+credentials.json
+x_cookies.txt
+tiktok_cookies.txt
+
+# ── DATABASE ──────────────────────────────────────────────────
+tracker.db
+tracker.db-shm
+tracker.db-wal
+
+# ── REPORTS ───────────────────────────────────────────────────
+# Raw reports stay local — only dashboard/latest.json goes to GitHub
+reports/
+!reports/.gitkeep
+
+# ── DASHBOARD DATA ────────────────────────────────────────────
+# Commit latest.json so the dashboard updates, but not the archive
+flash-dashboard/dashboard/archive/
+!flash-dashboard/dashboard/latest.json
+
+# ── PYTHON ────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+venv/
+.env
+.venv
+
+# ── PLAYWRIGHT ────────────────────────────────────────────────
+# Screenshots taken during debug sessions
+debug_*.png
+screenshot_*.png
+
+# ── MAC ───────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# ── VS CODE ───────────────────────────────────────────────────
+# Keep the .code-workspace file — it's needed to open the project correctly
+.vscode/settings.json
+.vscode/launch.json
+.vscode/extensions.json
+# But NOT:
+# discourse-tracker.code-workspace  ← this should be committed

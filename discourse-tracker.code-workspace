@@ -1,0 +1,57 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "python.defaultInterpreterPath": "/usr/bin/python3",
+    "python.pythonPath": "/usr/bin/python3",
+    "terminal.integrated.defaultProfile.osx": "bash",
+    "terminal.integrated.env.osx": {
+      "PATH": "/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    },
+    "editor.fontSize": 14,
+    "editor.wordWrap": "on",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "workbench.colorTheme": "Default Dark Modern",
+    "explorer.openEditors.visible": 1
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-python.python",
+      "ms-python.pylint",
+      "christian-kohler.path-intellisense"
+    ]
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Run Tracker",
+        "type": "python",
+        "request": "launch",
+        "program": "main.py",
+        "python": "/usr/bin/python3",
+        "console": "integratedTerminal"
+      },
+      {
+        "name": "View Reports",
+        "type": "python",
+        "request": "launch",
+        "program": "view_reports.py",
+        "python": "/usr/bin/python3",
+        "console": "integratedTerminal"
+      },
+      {
+        "name": "Run Analysis Only",
+        "type": "python",
+        "request": "launch",
+        "program": "analyst.py",
+        "python": "/usr/bin/python3",
+        "console": "integratedTerminal"
+      }
+    ]
+  }
+}
